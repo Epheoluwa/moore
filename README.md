@@ -48,6 +48,14 @@ To Start this project run
 ```bash
   php artisan serve
 ```
+## Credentials
+
+To Login to the admin Dashbord
+
+```bash
+  Email: admin@admin.com
+  Password: 12345678
+```
 
 ## Usage
 •	Only the admin have access to create and delete a task <br>
