@@ -41,7 +41,7 @@ class RegisterController extends Controller
                     return redirect()->route('/')->with('success', 'Registration successful');
                 }
 
-                return redirect()->route('/');
+                return redirect()->route('/')->with('success', 'Registration successful');
             }
         } catch (\Exception $e) {
             return back()->with('error', 'Unexpected error while creating account');
